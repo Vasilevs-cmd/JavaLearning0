@@ -33,7 +33,7 @@ public class Main {
                         spendings += expense;
                         break;
                     case 3:
-                        choice.choiceTax(earnings, spendings);
+                        Choice.getChoiceTax(earnings, spendings);
                         break;
                     default:
                         System.out.println("Такой операции нет");
